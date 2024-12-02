@@ -267,7 +267,7 @@ PGPASSWORD="$POSTGRES_PASSWORD" psql --host 127.0.0.1 -U postgres -d postgres -p
 
 ```
 helm ls
-helm status standalole
+helm status standalone
 ```
 
 ### Configuring replication between HA and Standalone instances.
