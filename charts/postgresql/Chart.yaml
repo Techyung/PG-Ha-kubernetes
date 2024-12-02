@@ -1,0 +1,23 @@
+name: postgresql
+apiVersion: v1
+version: 0.11.1
+description: Object-relational database management system (ORDBMS) with an emphasis
+  on extensibility and on standards-compliance.
+engine: gotpl
+home: https://www.postgresql.org/
+icon: https://www.postgresql.org/media/img/about/press/elephant.png
+keywords:
+- postgresql
+- postgres
+- database
+- sql
+maintainers:
+  - name: Matt Frazier
+    email: matt@cos.io
+    url: https://github.com/mfraezz
+  - name: Matt Clark
+    email: mattclark@cos.io
+    url: https://github.com/mattclark
+sources:
+- https://github.com/kubernetes/charts
+- https://github.com/docker-library/postgres
