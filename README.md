@@ -19,7 +19,7 @@ choco install minikube
  ```
 - Start Minikube:
  ```
-minikube start --cpus=2 --memory=2048 --disk-size=20g --driver=docker
+minikube start --cpus=2 --memory=3g --disk-size=20g --driver=docker
  ```
 - Verify Minikube is running:
  ```
@@ -407,7 +407,6 @@ PGPASSWORD="$POSTGRES_PASSWORD" psql --host 127.0.0.1 -U postgres -d postgres -p
 - Check the status of the instance 
 
 ```
-helm ls
 helm status standalone
 ```
 - connect to the standalone instance:
