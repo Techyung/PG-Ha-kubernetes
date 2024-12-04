@@ -8,9 +8,9 @@ fake = Faker()
 
 # PostgreSQL connection details
 HOST = "localhost"  # Change this if you are connecting through an external IP or service name
-PORT = '5434'  # The port you are forwarding to locally
+PORT = '5433'  # The port you are forwarding to locally
 USER = 'postgres'  # The PostgreSQL username
-PASSWORD = 'gf8jJoLC09'  # The PostgreSQL password (replace with actual password)
+PASSWORD = 'GTBG1sznSr'  # The PostgreSQL password (replace with actual password)
 DATABASE = 'library'  # The database name to be created if not exists
 
 # Function to connect to PostgreSQL (default database to connect to template1 or postgres)
